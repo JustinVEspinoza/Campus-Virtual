@@ -1,0 +1,18 @@
+.login-button{
+    background-color:rgba(255,255,255,0.7); /* rgbA */
+    border-color: #DDDDDD;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 15px;
+    background: #282828;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.login-button:hover {
+    background: #4f474f;
+    color: #ffffff;
+    text-decoration: none;
+  }
