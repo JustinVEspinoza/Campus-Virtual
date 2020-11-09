@@ -1,0 +1,35 @@
+.imagen-logo{
+    width:8.7em;
+    height:4em;
+}
+
+
+.ico-footer{
+    width:1.7em;
+    height:1.7em;
+    color:white;
+    margin-right: 0.4em;
+}
+
+
+
+
+.image-login{
+    background-image:url(/icons/prueba.png);
+    background-repeat:no-repeat;   
+    background-size: cover; 
+    background-position:center;
+  
+}
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+    .imagen-logo{
+        width:6.3em;
+        height:3em;
+    }
+}
