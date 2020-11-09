@@ -1,4 +1,5 @@
 
+<title>Inicio Sesión</title>
 
 <div class="image-login">
 @include('mods.headerHome')
