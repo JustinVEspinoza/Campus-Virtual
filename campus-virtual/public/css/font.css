@@ -6,3 +6,21 @@
 .font-2{
     font-size: 0.8em;
 }
+
+.font-decoration-none{
+    color:black;
+    text-decoration: none;
+}
+
+
+.font-decoration-none:link, .font-decoration-none:visited, .font-decoration-none:active {
+    text-decoration:none;
+    color:black;
+}
+
+.font-color-blue{
+    color:#26589F;
+}
+.text-pointer{
+    cursor: pointer;
+}

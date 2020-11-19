@@ -9,3 +9,15 @@
 .black-opaque{
     background-color:rgba(255,255,255,0.6); /* rgbA */
 }
+
+.gray{
+  background-color:lightgray;
+}
+
+.white{
+  background-color:white;
+}
+
+.border-color-gray{
+  border-color: gray;
+}

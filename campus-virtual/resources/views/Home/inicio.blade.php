@@ -1,10 +1,10 @@
-<title>Contáctenos</title>
+<title>Inicio</title>
 
 
 
 <div>
-@include('mods.headerHome')
-<main class="py-5">
+@include('mods.header-home')
+<div class="container-fluid py-5">
 
 
 <div class="col-sm-12 mt-2">
@@ -79,9 +79,9 @@
 
 
 
-    <div class="d-flex justify-content-around flex-wrap container-contactos">
+    <div class="d-flex justify-content-around flex-wrap container-extraInfo">
 
-        <div class="container-contactos-1">
+        <div class="container-extraInfo-1">
             <h2>Instituto de la rivera</h2>
             <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -91,7 +91,7 @@
                 pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa 
                 qui officia deserunt mollit anim id est laborum.</p>
         </div>
-        <div class="container-contactos-2">  
+        <div class="container-extraInfo-2">  
             <div class="d-inline-flex ">
                 <div  class="mr-4">
                     <i class="fas fa-image fa-4x text-muted"></i>
@@ -118,7 +118,7 @@
 
 
 
-</main>
+</div>
       
 
 @include('mods.footer')

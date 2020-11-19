@@ -1,0 +1,22 @@
+
+.tabla-perfil{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabla-perfil td{
+    padding-bottom: 4%;
+    padding-left: 7%;
+}
+
+
+.tabla-deudas{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.tabla-deudas tr{
+    padding-bottom: 4%;
+    padding-left: 7%;
+    background-color: #f2f2f2;
+}
