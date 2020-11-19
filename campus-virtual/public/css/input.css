@@ -4,3 +4,11 @@
     border-color: #DDDDDD;
     border-radius: 0px;
 }
+
+
+.text-break{
+    word-wrap: break-word;
+}
+.scroll-y{
+    overflow-y: auto;
+}

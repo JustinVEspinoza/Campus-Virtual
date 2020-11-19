@@ -1,4 +1,4 @@
-<footer class="page-footer blue mt-5 ">
+<footer class="page-footer blue container-footer">
 	<div class="d-flex row py-3" style="margin-right:0em">
     	<div class="col-sm-4"></div>
 		<div class="footer-copyright text-white col-sm-4 text-center">©Copyright 2020</div>

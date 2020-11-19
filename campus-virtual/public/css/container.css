@@ -1,19 +1,45 @@
-
 body{
     margin: auto;
     width:100%;
-    background-color: #f0f0f5;
     font-family: 'Nunito';
 }
 
+.center-height{
+    height: 68vh;
+    display: flex;
+    align-items: center;
+}
+
+.container-center{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container-footer{
+    margin-top: 3em;
+}
 .container-login{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:80%;
+}
+.container-login .card{
+    width:100%;
+}
+
+.container-items-login{
     font-family: Arial;
     margin-top: 6.5em;
     margin-bottom: 9em;
     margin-left: 5em;
     margin-right: 5em;
-}
 
+}
 
 .container-carousel{
     font-family: Arial;
@@ -21,57 +47,255 @@ body{
     height:34%;
 }
 
-
 .container-100{
     width:100%;
     height:100%;
 }
 
 
+
+.container-contactenos-titulo{
+    width:22%;
+    height: 30em;
+    padding-right: 2em;
+}
+
 .container-contactos{
+    width:20em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;   
+}
+
+
+.container-extraInfo{
     margin-top: 10em;
     margin-right: 10em;
     margin-left: 10em;
 }
-
-
 
 .carousel-indicators li {
     width: 10px;
     height: 10px;
     border-radius: 100%;
     background-color:gray;
-    
     box-shadow:inset 0px 0px 0px 1px rgba(12,8,8,0.48);
     -webkit-box-shadow: inset 0px 0px 0px 1px rgba(12,8,8,0.48);
     -moz-box-shadow: inset 0px 0px 0px 1px rgba(12,8,8,0.48);
   }
 
-  .carousel-indicators .active{
+.carousel-indicators .active{
     background-color: white;
 }
 
 
-.container-contactos-1{
+.container-extraInfo-1{
     width:35em;
 }
 
-.container-contactos-2{
+.container-extraInfo-2{
     width:20em;
 }
 
+.container-student-card{
+    width:15em;
+    margin-left: 3em;
+    border-radius:7px;
+    border-color: gray;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+}
+
+.container-student-card i{
+    margin-top: 0.5em;
+}
+
+.container-entorno{
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-cursos-card{
+    width:78%;
+}
+
+.container-calendario{
+    width:22%;
+}
 
 
-@media screen and (max-width: 800px){
+.container-fechas{
+    width:100%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius:7px;
+    -moz-border-radius:7px;
+    -webkit-border-radius:7px;
+}
+
+.container-detallesCurso{
+    display: grid;
+    background-color:#F0EEEE;
+    margin-bottom: 2em;
+    margin-right: 2em;
+    width: 18em;
+    height: 15em;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: lightgray;
+}
+
+.container-detallesCurso .card-footer{
+    background-color: white;
+}
+
+
+.container-info-curso{
+    width: 40%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.row{
+    margin-right: 0px;
+}
+
+
+  
+
+
+
+@media screen and (max-width: 766px){ /* Movil */
+    .container-login{
+        width: 100%;
+    }
+    .container-contactenos-titulo{
+        height:10em;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -2em;
+        padding-right: 0em;
+    }
     .container-contactos{
+        margin-right: 0em;
+        width: 19em;
+        height: 15em;
+    }
+    .container-extraInfo{
         margin-top: 7em;
         margin-right: 1em;
         margin-left: 1em;
     }
-
-    .container-contactos-1{
+    .container-extraInfo-1{
         margin-bottom: 3em;
     }
+    .container-student-card{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container-detallesCurso{
+        margin-right: 0em;
+        width: 19em;
+        height: 15em;
+    }
+    .container-cursos-card{
+        width:60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container-calendario{
+        width:80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container-info-curso{
+        width:80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
+
+
+
+
+
+@media only screen and (max-width:1023px) and (min-width: 767px) { /* Tablet */
+    .container-extraInfo{
+        margin-top: 7em;
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+    .container-extraInfo-1{
+        margin-bottom: 3em;
+    }
+    .container-student-card{
+        width:20em;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    .container-cursos-card{
+        width:90%;
+        margin-left: auto;
+    }
+    .container-calendario{
+        width:60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .container-info-curso{
+        width:55%;   
+    }
+    .center-height{
+        height: 80vh;
+    }
+}
+
+
+ 
+@media only screen and (max-width:1280px) and (min-width:1024px) { /* 1280 */
+
+    .container-cursos-card{
+        width:67%;
+        margin-left: 5%;
+    }
+    .container-calendario{
+        width:28%;
+    }
+    .container-info-curso{
+        width:55%;   
+    }
+    .center-height{
+        width:100%; 
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        
+}
+
+
+ 
+@media only screen and  (min-width:1281px) { /* 1280 */
+
+    .container-login{
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:40%;
+    }
+    .container-login .card{
+        width:100%;
+    }
+}
+
+
 
 

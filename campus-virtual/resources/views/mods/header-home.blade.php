@@ -13,11 +13,11 @@
 
     <nav class="navbar navbar-expand-md navbar-dark shadow-sm blue" style="margin-right:0em">
         <a href="{{ url('/') }}"><img class="imagen-logo" src="{{ asset('icons/InstitutoRivera.png') }}"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
-            <span class="fa fa-bars text-white" ></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHome">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="container-fluid" >  
-            <div class="collapse navbar-collapse">
+            <div class="collapse navbar-collapse " id="navbarHome">
 
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -33,5 +33,7 @@
             </div>   
         </div>
     </nav>
+
+
     </body>
 </html>

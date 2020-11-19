@@ -27,3 +27,7 @@ Auth::routes();
 Route::get('/login', [App\Http\Controllers\LoginController::class, 'index'])->name('login');
 Route::get('/', [App\Http\Controllers\InicioController::class, 'index'])->name('inicio');
 Route::get('/contacto', [App\Http\Controllers\ContactoController::class, 'index'])->name('contacto');
+Route::get('/entorno_virtual', [App\Http\Controllers\Entorno_VirtualController::class, 'index'])->name('entorno_virtual');
+Route::get('/entorno_virtual/curso/{idCurso}', [App\Http\Controllers\CursoController::class, 'index'])->name('curso');
+Route::get('/entorno_virtual/deudas', [App\Http\Controllers\MorosidadController::class, 'index'])->name('deudas');
+Route::get('/entorno_virtual/perfil', [App\Http\Controllers\PerfilController::class, 'index'])->name('perfil');
